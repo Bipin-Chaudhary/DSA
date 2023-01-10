@@ -1,4 +1,5 @@
 // bubble sort
+const input = require('./largeInput')
 
 function bubbleSort(arr) {
   for (let i = 0; i < arr.length; i++) {
@@ -11,4 +12,6 @@ function bubbleSort(arr) {
   return arr
 }
 
-console.log(bubbleSort([4,2,1,4,6]))
+console.time('sort')
+bubbleSort(input)
+console.timeEnd('sort')
