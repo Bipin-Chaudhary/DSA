@@ -1,2 +1,2 @@
 # DSA
-Datastructure and algorithms
+Data Structure and Algorithms with Python 3
